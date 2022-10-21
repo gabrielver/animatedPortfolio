@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#sanity
+sanity/node_modules
+sanity/schemas/author.js
+sanity/schemas/blockContent.js
+sanity/schemas/category.js

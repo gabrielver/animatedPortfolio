@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 
@@ -25,6 +26,7 @@ export default function Header({}: Props) {
             <SocialIcon url="https://www.youtube.com" fgColor='gray' bgColor='transparent' />
             <SocialIcon url="https://www.youtube.com" fgColor='gray' bgColor='transparent' />
         </motion.div>
+        <Link href="#contact">
         <motion.div  
         initial={{
             x:500,
@@ -46,6 +48,7 @@ export default function Header({}: Props) {
             />
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
         </motion.div >
+        </Link>
     </header>
   )
 }
